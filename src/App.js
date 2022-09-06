@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 let Web3 = require("web3");
-const alchemyapi_url = "https://eth-rinkeby.alchemyapi.io/v2/1YRsY55AxFPKvZt7ekvgBg-yywM9g1TU";
-const infuraapi_url = "https://rinkeby.infura.io/v3/4521b5a40d0d45428de0b40fca371a2b";
+const alchemyapi_url = "https://eth-rinkeby.alchemyapi.io/v2/<Your Project Key>";
+const infuraapi_url = "https://rinkeby.infura.io/v3/<Your Project Key>";
 var web3 = new Web3(infuraapi_url);
 
 const ABI = `[
